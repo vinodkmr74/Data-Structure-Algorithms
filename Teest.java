@@ -1,10 +1,19 @@
 public class Teest {
 
+    public static void printArr(int a[], int n) {
+
+        for (int i = 0; i < n; i++) {
+            System.out.println(a[i]);
+        }
+
+    }
+
     public static void main(String[] args) {
 
-        int a[] = { 100, 102, 103, 102, 104, 105 };
-        for (int i = 0; i < a.length; i++)
-            System.out.println(a[i]);
+        int a[] = { 1, 2, 3 };
+
+        int n = a.length - 1;
+        printArr(a, n);
     }
 
 }
